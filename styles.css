@@ -1,0 +1,67 @@
+/* Ogólne style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Nagłówek */
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Główna zawartość */
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Sekcje */
+section {
+    background: white;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+section h2 {
+    color: #0066cc;
+    margin-bottom: 1rem;
+}
+
+/* Kursory */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-crosshair {
+    cursor: crosshair;
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+/* Stopka */
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+}
